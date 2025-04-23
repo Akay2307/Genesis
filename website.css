@@ -1,0 +1,57 @@
+    .body {
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav {
+        background-color: rgb(18, 235, 235);
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px 20px 10px;
+        border-bottom: 1px solid gainsboro;
+    }
+    .left-box {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .nav-logo {
+        width: 45px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .right-box {
+        display: flex;
+        gap: 10px;
+        padding-right: 50px;
+    }
+    .home:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .products:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .blogs:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .contact:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .form-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        min-height: 100vh;
+        background: seagreen;
+    }
+    .wrapper{
+        background: purple;
+    }

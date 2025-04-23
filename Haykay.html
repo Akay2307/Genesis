@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML BASICS</title>
+    <link rel="stylesheet" href="index.css"/>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+
+<nav class="nav">
+    <div class="left-box">
+        <img class="nav-logo" src="Assets/icons8-youtube-48.png" alt="Logo"/>
+    </div>
+    <div class="middle-box">
+        <input type="text" class="search" placeholder="Search"/>
+    </div>
+    <div class="right-box">
+        <button class="create-btn">Create</button>
+            <img 
+            class="profile-picture" 
+            src="Assets/photo-1742201835840-1325b7546403.avif" 
+            alt="Profile-picture"/>
+    </div>
+</nav>
+
+<div class="suggestion-box">
+    <button class="all-button">All</button>
+    <button class="all-button">Nollywood</button>
+    <button class="all-button">CSS</button>
+    <button class="all-button">Cruise</button>
+    <button class="all-button">Couples</button>
+    <button class="all-button">Gaming</button>
+    <button class="all-button">Podcasts</button>
+    <button class="all-button">Music</button>
+    <button class="all-button">Mixes</button>
+    <button class="all-button">Skills</button>
+    <button class="all-button">Live</button>
+    <button class="all-button">Game shows</button>
+    <button class="all-button">Air lines</button>
+    <button class="all-button">Sketch Comedy</button>
+    <button class="all-button">Devops</button>
+</div>
+
+<section class="main-section">
+    <!-- <div class="video-card">
+        <img class="image" src="https://placehold.co/300x180" 
+        alt="Video Thumbnail" />
+        <div class="video-details">
+            <img class="video-details-pp" src="https://placehold.co/300x180" alt="Video Thumbnail" />
+            <div class="video-text">
+                <p class="title">Lorem ipsum dolor sit amet elit. Amet, placeat?</p>
+                <p class="channel">Sponsored . Grammerly</p>
+                <button class="watch-button" >Watch</button>
+                <button class="download-button" >Download</button>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="video-card">
+        <div class="image-container">
+            <img class="image" 
+            src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQhttps://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" 
+            alt="Video Thumbnail" />
+            <p class="duration">10:17</p>
+        </div>
+        <div class="video-details">
+            <img class="video-details-pp" src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" alt="Video Thumbnail" />
+            <div class="video-text">
+                <p class="title">Lorem ipsum dolor sit amet elit. Amet, placeat?</p>
+                <div class="chastat">
+                    <p class="channel">AppClick</p>
+                    <p class="stat">1.4m views &#8226; 16 hours ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <div class="image-container">
+            <img class="image" 
+            src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQhttps://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" 
+            alt="Video Thumbnail" />
+            <p class="duration">10:17</p>
+        </div>
+        <div class="video-details">
+            <img class="video-details-pp" src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" alt="Video Thumbnail" />
+            <div class="video-text">
+                <p class="title">Lorem ipsum dolor sit amet elit. Amet, placeat?</p>
+                <div class="chastat">
+                    <p class="channel">AppClick</p>
+                    <p class="stat">1.4m views &#8226; 16 hours ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <div class="image-container">
+            <img class="image" 
+            src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQhttps://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" 
+            alt="Video Thumbnail" />
+            <p class="duration">10:17</p>
+        </div>
+        <div class="video-details">
+            <img class="video-details-pp" src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" alt="Video Thumbnail" />
+            <div class="video-text">
+                <p class="title">Lorem ipsum dolor sit amet elit. Amet, placeat?</p>
+                <div class="chastat">
+                 <p class="channel">AppClick</p>
+                 <p class="stat">1.4m views &#8226; 16 hours ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <div class="image-container">
+            <img class="image" 
+            src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQhttps://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" 
+            alt="Video Thumbnail" />
+            <p class="duration">10:17</p>
+        </div>
+        <div class="video-details">
+            <img class="video-details-pp" src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" alt="Video Thumbnail" />
+            <div class="video-text">
+                <p class="title">Lorem ipsum dolor sit amet elit. Amet, placeat?</p>
+                <div class="chastat">
+                 <p class="channel">AppClick</p>
+                 <p class="stat">1.4m views &#8226; 16 hours ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <div class="image-container">
+            <img class="image" 
+            src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQhttps://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" 
+            alt="Video Thumbnail" />
+            <p class="duration">10:17</p>
+        </div>
+        <div class="video-details">
+            <img class="video-details-pp" src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" alt="Video Thumbnail" />
+            <div class="video-text">
+                <p class="title">Lorem ipsum dolor sit amet elit. Amet, placeat?</p>
+                <div class="chastat">
+                 <p class="channel">AppClick</p>
+                 <p class="stat">1.4m views &#8226; 16 hours ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <div class="image-container">
+            <img class="image" 
+            src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQhttps://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" 
+            alt="Video Thumbnail" />
+            <p class="duration">10:17</p>
+        </div>
+        <div class="video-details">
+            <img class="video-details-pp" src="https://i.ytimg.com/vi/15lyO5qmtg0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBCED-AhvOB0t31zGNiB7Cb-P9wrQ" alt="Video Thumbnail" />
+            <div class="video-text">
+                <p class="title">Lorem ipsum dolor sit amet elit. Amet, placeat?</p>
+                <div class="chastat">
+                 <p class="channel">AppClick</p>
+                 <p class="stat">1.4m views &#8226; 16 hours ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="youtube-shorts">
+    <img class="shorts-logo" src="Assets/icons8-youtube-shorts-48.png" alt="Logo"/>
+    <h5 class="short">Shorts</h5>
+</div>
+
+<section class="short-section">
+    <div class="video-shorts-card">
+        <div class="video-container">
+            <video class="video-short" src="Assets/WhatsApp Video 2025-04-18 at 09.11.03_b30442b9.mp4" controls width="500px" alt="Video Thumbnail"></video>
+        </div>
+        <div class="video-details">
+            <div class="video-text">
+                <p class="short-title">Lorem ipsum dolor sit <br/> elit. placeat?</p>
+                <div class="chastat">
+                    <p class="short-stat">1.4m views</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-shorts-card">
+        <div class="video-container">
+            <video class="video-short" src="Assets/WhatsApp Video 2025-04-18 at 09.11.10_35d798bf.mp4" controls width="500px" alt="Video Thumbnail"></video>
+        </div>
+        <div class="video-details">
+            <div class="video-text">
+                <p class="short-title">Lorem ipsum dolor sit <br/> elit. placeat?</p>
+                <div class="chastat">
+                    <p class="short-stat">1.4m views</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-shorts-card">
+        <div class="video-container">
+            <video class="video-short" src="Assets/WhatsApp Video 2025-04-18 at 09.11.14_2e9ea77a.mp4" controls width="500px" alt="Video Thumbnail"></video>
+        </div>
+        <div class="video-details">
+            <div class="video-text">
+                <p class="short-title">Lorem ipsum dolor sit <br/> elit. placeat?</p>
+                <div class="chastat">
+                    <p class="short-stat">1.4m views</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-shorts-card">
+        <div class="video-container">
+            <video class="video-short" src="Assets/WhatsApp Video 2025-04-18 at 09.11.17_9903c184.mp4" controls width="500px" alt="Video Thumbnail"></video>
+        </div>
+        <div class="video-details">
+            <div class="video-text">
+                <p class="short-title">Lorem ipsum dolor sit <br/> elit. placeat?</p>
+                <div class="chastat">
+                    <p class="short-stat">1.4m views</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-shorts-card">
+        <div class="video-container">
+            <video class="video-short" src="Assets/WhatsApp Video 2025-04-18 at 09.11.17_d125e4a1.mp4" controls width="500px" alt="Video Thumbnail"></video>
+        </div>
+        <div class="video-details">
+            <div class="video-text">
+                <p class="short-title">Lorem ipsum dolor sit <br/> elit. placeat?</p>
+                <div class="chastat">
+                    <p class="short-stat">1.4m views</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-shorts-card">
+        <div class="video-container">
+            <video class="video-short" src="Assets/WhatsApp Video 2025-04-18 at 11.07.00_d96446d0.mp4" controls width="500px" alt="Video Thumbnail"></video>
+        </div>
+        <div class="video-details">
+            <div class="video-text">
+                <p class="short-title">Lorem ipsum dolor sit <br/> elit. placeat?</p>
+                <div class="chastat">
+                    <p class="short-stat">1.4m views</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-shorts-card">
+        <div class="video-container">
+            <video class="video-short" src="Assets/WhatsApp Video 2025-04-18 at 11.07.17_ca026a0a.mp4" controls width="500px" alt="Video Thumbnail"></video>
+        </div>
+        <div class="video-details">
+            <div class="video-text">
+                <p class="short-title">Lorem ipsum dolor sit <br/> elit. placeat?</p>
+                <div class="chastat">
+                    <p class="short-stat">1.4m views</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
